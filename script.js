@@ -1247,7 +1247,6 @@ function updateGlobals(timeStep, lag) {
 	}
 }
 
-
 function update(frameTime, lag) {
 	if (!isRunning()) return;
 	
