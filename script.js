@@ -6,7 +6,7 @@ console.clear();
 // reading/working on this single file, but here it is anyways :)
 
 const IS_MOBILE = window.innerWidth <= 640;
-const IS_DESKTOP = window.innerWidth > 800; 
+const IS_DESKTOP = window.innerWidth > 800;  
 const IS_HEADER = IS_DESKTOP && window.innerHeight < 300;
 // Detect high end devices. This will be a moving target.
 const IS_HIGH_END_DEVICE = (() => {
