@@ -12,7 +12,7 @@ const IS_HEADER = IS_DESKTOP && window.innerHeight < 300;
 const IS_HIGH_END_DEVICE = (() => {
 	const hwConcurrency = navigator.hardwareConcurrency;
 	if (!hwConcurrency) {
-		return false;
+		return false; 
 	}
 	// Large screens indicate a full size computer, which often have hyper threading these days.
 	// So a quad core desktop machine has 8 cores. We'll place a higher min threshold there.
